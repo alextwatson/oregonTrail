@@ -36,12 +36,11 @@ print("food     = " + poundsOfFoodPurchasedStr)
 print("clothing =   0")
 print("ammo     =   0")
 print("parts    =   0")
-print("you have : ")
 print("How many suspenders do you want, Each suspenders is 10")
 print("I recommend at least 25 ")
 var suspendersPurchasedStr: String = readLine()!
 var suspendersPurchasedInt: Int = Int(suspendersPurchasedStr)!
-print("NUMBER OF COWS PURCHASED : " + poundsOfFoodPurchasedStr)
+print("NUMBER OF SUSPENDERS PURCHASED : " + suspendersPurchasedStr)
 print("you have : ")
 spent = print(spent - poundsOfFoodPurchasedInt)
 spent
@@ -55,9 +54,25 @@ print("you have : ")
 spent = print(250 - numberOfSnailPurchasedInt)
 spent
 print("dollars left")
-  if spent >= 0(){
-  print("Nice, Now to start on your journey!!!!!")
-
-  }
+print("How many suspenders do you want, Each suspenders is 10")
+print("I recommend at least 25 ")
+var suspendersPurchasedStr: String = readLine()!
+var jellyFishNetsPurchasedInt: Int = Int(jellyFishNetsPurchasedStr)!
+print("NUMBER OF NETS PURCHASED : " + jellyFishNetsPurchasedStr)
+print("you have : ")
+spent = print(spent - jellyFishNetsPurchasedInt)
+spent
+print("dollars left")
+print("cows     = " + numberOfSnailsPurchasedStr)
+print("food     = " + poundsOfFoodPurchasedStr)
+print("clothing = " + suspendersPurchasedStr)
+print("ammo     = " )
+print("parts    =   0")
+print("you have : ")
+spent = print(250 - numberOfSnailPurchasedInt)
+spent
+print("dollars left")
+if spent >= 0 (){
+print("Now time to start your journey")
+realMoney = true
 }
-
