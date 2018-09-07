@@ -97,5 +97,11 @@ while suppliesPurchased == false {
 var alive: Bool = true
 var arrived: Bool = false
 while alive && arrived{
+  print ("do you want to hunt or continue")
+  var choice: String = readline!
+  if chioce == "hunt"{
+    //hunt
+  }else{
+    //random sickness & decrease food
+  }
 
-}
