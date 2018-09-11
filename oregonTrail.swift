@@ -1,5 +1,8 @@
 // $ cd Documents/AppTeam/alex
 // $ swift oregon.swift
+
+import Foundation
+
 print("Welcome")
 print("Oregon trail is a long and painful journey")
 print("You should probably get some supplies")
@@ -83,12 +86,12 @@ while suppliesPurchased == false {
   money = money - boatPartsPurchasedInt
   print(money)
   print("dollars left")
-  
+
   if money >= 0 && numberOfSnailsPurchasedInt >= 3 && poundsOfFoodPurchasedInt >= 15{
     print("Now time to start your journey")
     suppliesPurchased = true
   }
-  
+
   if money < 0 {
     money = 100
   }
@@ -96,12 +99,18 @@ while suppliesPurchased == false {
 
 var alive: Bool = true
 var arrived: Bool = false
-while alive && arrived{
-  print ("do you want to hunt or continue")
-  var choice: String = readline!
-  if chioce == "hunt"{
+while alive && arrived == false{
+  print ("do you want to hunt or continue?")
+  var choice: String = readLine()!
+  if  readLine()! == "hunt"{
     //hunt
-  }else{
+    print("time for jellyfish hunting ")
+    var huntWord = Int(arc4random_uniform(3))
+    if huntWord == 1 {
+      print("hi")
+    }
+    }else{
     //random sickness & decrease food
+    }
   }
 
